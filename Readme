@@ -1,0 +1,37 @@
+Task 1: Data Cleaning and Preprocessing
+
+📊 Dataset
+
+Sample Used: Mall Customer Segmentation Data
+
+✅ Summary of Changes
+
+Handled Missing Values: Filled missing values in the Age column using the median.
+
+Standardized Categorical Values: Normalized the Gender column (e.g., 'female' → 'Female').
+
+Date Format Consistency: Converted Join Date values to consistent dd-mm-yyyy format using datetime.
+
+Removed Duplicates: Dropped exact duplicate rows based on all columns.
+
+Cleaned Column Headers: Renamed columns to lowercase with underscores for consistency.
+
+
+🛠 Tools Used
+
+Python 3
+
+Pandas library
+
+
+🚀 How to Run
+
+1. Make sure your raw dataset is saved as raw_data.csv in the same folder.
+
+
+2. Run the script:
+
+python cleaning_script.py
+
+
+3. The cleaned dataset will be saved as cleaned_data.csv.
